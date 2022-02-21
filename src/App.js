@@ -6,13 +6,13 @@ export default function App() {
     <div className="App">
       <div className='container'>
       <header className="App-header">
-        Hello
+        
       </header>
       <main>
         <Dictionary />
       </main>
-      <footer>
-        Coded by Deborah Adeoye
+      <footer className='App-footer'>
+        <small>Coded by Deborah Adeoye</small>
       </footer>
       </div>
     </div>
