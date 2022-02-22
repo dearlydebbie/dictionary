@@ -1,8 +1,12 @@
 .Dictionary section {
-  background: white;
+/* From https://css.glass */
+background: rgba(243, 228, 226, 0.26);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.2px);
+-webkit-backdrop-filter: blur(3.2px);
+border: 1px solid rgba(243, 228, 226, 0.33);
   padding: 30px;
-  border-radius: 6px;
-  box-shadow: 0px 7px 16px rgb(0 0 0 / 10%);
   margin: 20px 0;
 }
 .Dictionary h1 {
@@ -16,7 +20,7 @@
   padding: 6px 4px;
   border: 1px solid #ddd;
   border-radius: 6px;
-  color: #333;
+  color: #334944;
 }
 .Dictionary .hint {
   font-size: 11px;
